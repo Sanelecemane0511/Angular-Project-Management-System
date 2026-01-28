@@ -1,59 +1,19 @@
-# PmsProject
+# Project Management System
+**Angular Framework and Frontend Development**
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.3.9.
+## Project Description
+This is a Task Management application built with the Angular framework. It is designed to help users manage their work projects in a fast, modern web interface.
 
-## Development server
+## Technical Skills Used
+* **Framework:** Angular.
+* **Languages:** TypeScript, HTML, and CSS.
+* **Tools:** Angular CLI, Node.js, and Git.
+* **Architecture:** Component-based design.
 
-To start a local development server, run:
+## Main Features
+* **Single Page Application (SPA):** The app is very fast because it updates the screen without reloading the whole page.
+* **Task Management:** Users can add, edit, and organize project tasks.
+* **Reactive Design:** The interface changes instantly when a user interacts with it.
 
-```bash
-ng serve
-```
-
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
-
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
-```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+## Technical Challenge Solved
+While building this Angular app, I had a problem where the task editing boxes (modals) were not showing up correctly for certain users. I solved this by fixing the "Conditional Rendering" logic in the Angular components. This made sure the app correctly checked user data before displaying the interface, making the system more reliable.
